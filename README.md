@@ -7,7 +7,7 @@ works standalone with gui or
 require 'qrcode.php';<br>
 file_put_contents('qr.png', QRCode::png('https://example.com', QRCode::ECC_H));<br>
 echo QRCode::svg('Hello world');                      // inline SVG<br>
-echo '<img src="' . QRCode::encode('Hi')->toDataURL() . '">';<br>
+echo < img src="' . QRCode::encode('Hi')->toDataURL() . '">';<br>
 $qr = QRCode::encode('HELLO WORLD', 'Q', 2);          // force min version 2<br>
 <br><br>
 2) As an image endpoint<br>
